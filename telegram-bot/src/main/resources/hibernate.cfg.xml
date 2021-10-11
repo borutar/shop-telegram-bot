@@ -3,9 +3,9 @@
 
     <session-factory>
         <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
-        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/shop_telegram_bot</property>
-        <property name="hibernate.connection.username">postgres</property>
-        <property name="hibernate.connection.password">postgres</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://ec2-3-221-100-217.compute-1.amazonaws.com:5432/shop_telegram_bot</property>
+        <property name="hibernate.connection.username">zkgvjbsbpasopm</property>
+        <property name="hibernate.connection.password">646c80ead85a8d74a3233e0d42a4a141a479d30f674fc1dbff401b8e649cd441</property>
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL10Dialect</property>
 
         <property name="hibernate.c3p0.validate">true</property>
